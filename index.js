@@ -1,1 +1,8 @@
-function calc(a,b){var c=a+b;return c;}var x=5,y=10;console.log(calc(x,y));
+function calc (a, b) {
+  const c = a + b
+  return c
+}
+
+const x = 5
+const y = 10
+console.log(calc(x, y))
